@@ -1,0 +1,9 @@
+export interface FoodItem {
+  id: string; // <-- Add this line
+  name: string;
+  calories: number;
+  protein: number;
+  carbs: number;
+  fat: number;
+  // ...any other fields
+}
