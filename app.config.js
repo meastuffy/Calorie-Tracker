@@ -9,7 +9,11 @@ export default {
     userInterfaceStyle: "automatic",
     newArchEnabled: false,
     ios: {
-      supportsTablet: true
+      supportsTablet: true,
+      bundler: "metro"
+    },
+    android: {
+      bundler: "metro"
     },
     web: {
       bundler: "metro",
